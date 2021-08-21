@@ -17,7 +17,7 @@ app.use(express.static('dist'))
 app.use(cors())
 app.use(bodyParser.json())
 
-app.use(express.static('dist'))
+app.use(express.static(path.join(__dirname, 'dist')))
 
 console.log(__dirname);
 
@@ -26,7 +26,7 @@ app.get('/', function (req, res) {
 })
 
 // designates what port the app will listen to for incoming requests
-const port = 8081
+const port = process.env.PORT || 8081
 app.listen(port, function () {
     console.log(`Example app listening on port ${port}!`)
 })
