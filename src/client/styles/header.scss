@@ -1,0 +1,17 @@
+$white: #cecece;
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    background-color: #dd8165;
+    color: $white;
+
+    a {
+        text-decoration: none;
+        color: $white;
+        &::after {
+            color: $white;
+        }
+    }
+}

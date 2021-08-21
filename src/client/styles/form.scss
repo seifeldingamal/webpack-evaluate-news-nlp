@@ -1,0 +1,39 @@
+form {
+    background-color: rgb(252, 224, 224);
+    border: 1px solid #545454;
+    border-radius: 12.5px;
+    padding: 40px;
+    text-align: center;
+    
+    input {
+        border: none;
+        border-radius: 12.5px;
+        background-color: rgb(221, 129, 101);
+        color: #cecece;
+        padding: 5px 20px;
+        line-height: 16px;
+        margin: 10px 0;
+        width: 20%;
+        height: 40px;
+        &:hover {
+            background-color: #a35c46;
+        }
+    }
+    
+    textarea {
+        padding: 5px 20px;
+        line-height: 16px;
+        margin: 10px 0;
+        height: 120px;
+        width: 90%;
+    }
+
+    .error {
+        border: 1.5px solid red;
+
+        &::placeholder {
+            color: red;
+        }
+    }
+}
+
