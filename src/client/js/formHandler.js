@@ -29,7 +29,7 @@ function handleSubmit(event) {
     } else {
         input.value = ""
         input.classList.add('error')
-        alert('Entered Text much be More than 5 Words!')
+        alert('Entered Text Must Be More Than 5 Words!')
     }
 }
 

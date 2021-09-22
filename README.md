@@ -38,6 +38,6 @@ The MeaningCloud API was pretty easy to get ready for using.
 ### Step 1: Signup for an API key
 ### Step 2: Environment Variables
 
-### Step 5: Using the API
+### Step 3: Using the API
 
 We're ready to go! The API has a lot of different endpoints you can take a look at [here](https://learn.meaningcloud.com/developer/sentiment-analysis/2.1/doc/request).
