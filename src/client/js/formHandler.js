@@ -13,7 +13,7 @@ function handleSubmit(event) {
         input.value = ""
         input.classList.remove('error')
         
-        axios.post('http://localhost:8081/api', {
+        axios.post(`http://localhost:${process.env.PORT || 8081}/api`, {
             text
         })
         //axios.get('http://localhost:8081/test')
